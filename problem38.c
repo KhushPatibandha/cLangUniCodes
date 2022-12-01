@@ -31,7 +31,7 @@ int main(void)
     if(bill >= 400)
     {
         surcharge = bill * 0.15;
-        bill = bill + surcharge;
+        bill += surcharge;
     }
     else if(bill < 100)
     {
