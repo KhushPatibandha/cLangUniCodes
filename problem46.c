@@ -8,16 +8,24 @@ int main(void)
 
     int a = (int) currChar; 
 
+    printf("%i %c \n", a, currChar);
+    
+    if(a >= 65 && a <= 90)
+    {
+        a = 1;
+    }
+    else
+    {
+        a = 2;
+    }
+
     switch(a)
     {
-        case 1 : (a >= 65);
-        printf("Upper case \n");
-
-        case 2 : (a <= 90);
-        printf("Upper case \n");
-
-        default:
-        printf("Lower case \n");
+        case 1 : printf("Upper case \n");
+        break;
+        
+        case 2: printf("Lower case \n");
+        break;
     }
 
     return 0;
