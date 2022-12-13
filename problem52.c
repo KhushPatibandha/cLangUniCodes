@@ -11,7 +11,7 @@ int main(void)
 
     if(num < 0 || (num % 10 == 0 && num != 0))
     {
-        printf("Not a palidrome \n");
+        printf("Not a palindrome \n");
     }
 
     int reverse = 0;
@@ -24,11 +24,11 @@ int main(void)
 
     if(num == reverse || reverse / 10 == num)
     {
-        printf("Palidrome \n");
+        printf("Palindrome \n");
     }
     else
     {
-        printf("Not a Palidrome");
+        printf("Not a Palindrome");
     }
 
     return 0;
