@@ -23,4 +23,6 @@ int main(void)
         }
         factor = 0;
     }
+
+    return 0;
 }
