@@ -10,12 +10,16 @@ int main(void)
     printf("Enter a Three digit number \n");
     scanf("%i", &num);
 
-    // while()
-    // {
-        // 132
-        
-         
-    // }
+    int reverse = 0;
+    
+    while(num > 0)
+    {
+        reverse = reverse * 10 + num % 10;
+        num /= 10;
+    }
+
+    printf("Reverse = %i \n", reverse);
+    printf("Num : %i \n", num);
 
     return 0;
 }
