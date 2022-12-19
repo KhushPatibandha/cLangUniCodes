@@ -1,3 +1,12 @@
+/*
+    Print:
+    1
+    1 2
+    1 2 3
+    1 2 3 4
+    1 2 3 4 5
+*/
+
 #include<stdio.h>
 int main(void)
 {
@@ -9,7 +18,7 @@ int main(void)
     {
         for(int j = 1; j <= i; j++)
         {
-            printf("%i", j);
+            printf("%i ", j);
         }
         printf("\n");
     }
