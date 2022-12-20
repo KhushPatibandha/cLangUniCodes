@@ -5,31 +5,23 @@
 #include<stdio.h>
 int main(void)
 {
-    int n;
+    int num, n, largest = 0;
     
     printf("How many numbers would you like to enter \n");
     scanf("%i", &n);
 
-    printf("Enter %i numbers of your choice \n", n);
-    
-    int num[n];
-
+    printf("Enter %i numbers \n", n);
     for(int i = 0; i < n; i++)
     {
-        scanf("%i", &num[i]);
-    }
+        scanf("%i", &num);
 
-    int greatest = num[0];
-
-    for (int i = 0; i < n; i++)
-    {
-        if(num[i] > greatest)
+        if(num > largest)
         {
-            greatest = num[i];
+            largest = num;
         }
     }
 
-    printf("Greatest number is %i \n", greatest);
+    printf("Largest number is %i \n", largest);
 
     return 0;
 }
