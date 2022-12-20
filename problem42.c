@@ -1,11 +1,11 @@
 /*
-    Write a program to add first 5 even numbers
+    Write a program to add first 5 odd numbers
 */
 
 #include<stdio.h>
 int main(void)
 {
-    int x = 2, sum, count = 0;
+    int x = 1, sum, count = 0;
 
     while(count < 5)
     {
