@@ -6,10 +6,11 @@
 #include<stdio.h>
 int main(void)
 {
-    int n, arr[100];
+    int n;
     printf("How many numbers you would like to enter \n");
     scanf("%i", &n);
 
+    int arr[n];
     printf("Enter %i numbers \n", n);
 
     for(int i = 0; i < n; i++)
