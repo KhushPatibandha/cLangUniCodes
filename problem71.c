@@ -1,5 +1,7 @@
 /*
-
+    Write a program to accept marks for three subjects of five students. Calculate and
+    print, percentage of each student, highest marks in each subject and avg marks of
+    each subject.
 */
 
 #include<stdio.h>

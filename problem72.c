@@ -1,3 +1,8 @@
+/*
+    Write a program to accept a matrix from the user and print the sum of all
+    elements.
+*/
+
 #include<stdio.h>
 int main(void)
 {
@@ -15,15 +20,6 @@ int main(void)
             scanf("%i", &arr[i][j]);
             sum += arr[i][j];
         }
-    }
-
-    for(int i = 0; i < n; i++)
-    {
-        for(int j = 0; j < m; j++)
-        {
-            printf("%i ", arr[i][j]);
-        }
-        printf("\n");
     }
 
     printf("Sum of all element is %i \n", sum);
