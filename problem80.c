@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void add(int, int);
+// void add(int, int);
 
 void add(int x, int y)
 {
