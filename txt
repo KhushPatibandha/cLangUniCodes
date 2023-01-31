@@ -11,3 +11,8 @@ WAP to find sum if first N odd numbers
 WAP to print multiplication table up to N
 
 WAP a program to find 1+ 1/2+ 1/3+ 1/4+ .... + 1/n
+
+write a program in which (a) no argument with no return value
+(b) argument with no return value
+(c) no argument with return value
+(d) both argument and return value
